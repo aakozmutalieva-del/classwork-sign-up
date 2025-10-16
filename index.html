@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cont">
+      <div class="left">
+        <h1>Stay updated!</h1>
+        <h4>
+          Join 60,000+ product managers receiving monthly<br />
+          updates on:
+        </h4>
+        <div class="g">
+          <img class="ima" src="assets/images/icon-success.svg" alt="" />
+          <h4>Product discovery and building what matters</h4>
+        </div>
+        <div class="g">
+          <img class="ima" src="assets/images/icon-success.svg" alt="" />
+          <h4>Measuring to ensure updates are a success</h4>
+        </div>
+        <div class="g">
+          <img class="ima" src="assets/images/icon-success.svg" alt="" />
+          <h4>And much more!</h4>
+        </div>
+        <h4>Email address</h4>
+        <button class="bo">
+          <input type="text" placeholder="email@company.com" />
+        </button>
+        <button class="bt"><h3>Subscribe to monthly newsletter</h3></button>
+      </div>
+      <div class="right">
+        <img
+          class="sim"
+          src="assets/images/illustration-sign-up-desktop.svg"
+          alt="icon-success.svg"
+        />
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+      body {
+        background-color: hsl(235, 18%, 26%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .cont {
+        margin-top: 150px;
+        width: 800px;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        background-color: white;
+        border-radius: 15px;
+      }
+      .left {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+      }
+      .right {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .g {
+        display: flex;
+        flex-direction: row;
+      }
+      .ima {
+        width: 20px;
+        height: 20px;
+      }
+      .sim {
+        border-radius: 15px;
+        width: 400px;
+        height: 500px;
+      }
+      .bo {
+        background-color: white;
+        color: hsl(0, 0%, 58%);
+        width: 300px;
+        height: 40px;
+        border-color: black;
+      }
+      .bt {
+        background-color: hsl(234, 29%, 20%);
+        color: hsl(0, 0%, 100%);
+        width: 300px;
+        height: 40px;
+      }
+      input {
+        border: none;
+      }
+    </style>
